@@ -30,7 +30,9 @@ const getAllDetailsByID = async (id) => {
         if (dataFromMember[0] != undefined) {
             {
                 finalObj.ID = dataFromMember[0].ID,
-                    finalObj.address = dataFromMember[0].address,
+                    finalObj.city = dataFromMember[0].city,
+                    finalObj.street = dataFromMember[0].street,
+                    finalObj.houseNum = dataFromMember[0].houseNum,
                     finalObj.bornDate = dataFromMember[0].bornDate,
                     finalObj.name = dataFromMember[0].name,
                     finalObj.phone = dataFromMember[0].phone,
